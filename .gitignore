@@ -1,0 +1,35 @@
+# Terraform
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+terraform.tfstate.backup
+.terraform.lock.hcl
+terraform-provider-*
+
+# Ansible
+**/inventory.ini
+**/join-command.txt
+**/*_rsa
+**/*_rsa.pub
+**/ansible-retry-file
+
+# SSH/Sensible Daten
+*.pem
+*.priv
+*.key
+*.env
+*.secret
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Lokale Skripte
+scripts/local-*

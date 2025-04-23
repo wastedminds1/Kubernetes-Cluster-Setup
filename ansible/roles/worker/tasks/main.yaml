@@ -1,0 +1,8 @@
+---
+- name: Read join command from file
+  local_action: command cat join-command.txt
+  register: join_command
+  changed_when: false
+
+- name: Join worker to cluster
+  command: "{{ join_command.stdout }}"
