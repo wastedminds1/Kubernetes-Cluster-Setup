@@ -21,5 +21,5 @@ This project automates the deployment of a Kubernetes cluster on AWS using Terra
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kubernetes-cluster-automation.git
+   git clone https://github.com/wastedminds1/kubernetes-cluster-automation.git
    cd kubernetes-cluster-automation
